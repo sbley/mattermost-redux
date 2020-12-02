@@ -110,6 +110,10 @@ export type MarketplacePlugin = {
     download_url?: string;
     release_notes_url?: string;
     labels?: MarketplaceLabel[];
+    hosting: string;
+    author_type: string;
+    release_stage: string;
+    enterprise: boolean;
     manifest: PluginManifest;
     installed_version?: string;
 }
